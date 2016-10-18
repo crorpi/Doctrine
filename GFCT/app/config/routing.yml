@@ -1,0 +1,11 @@
+gfct:
+    resource: "@GFCTBundle/Resources/config/routing.yml"
+    prefix:   /prueba
+    
+prueba_nombre:
+    path:     /nombre/{nPila}
+    defaults: { _controller: GFCTBundle:Default:nombre }
+
+all_eventos:
+    path:     /eventos/all
+    defaults: { _controller: GFCTBundle:Eventos:all }

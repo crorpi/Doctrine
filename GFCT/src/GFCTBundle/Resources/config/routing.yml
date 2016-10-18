@@ -1,0 +1,3 @@
+gfct_homepage:
+    path:     /
+    defaults: { _controller: GFCTBundle:Default:index }

@@ -1,0 +1,4 @@
+services:
+#    gfct.example:
+#        class: GFCTBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
